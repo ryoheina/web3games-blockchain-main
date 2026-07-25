@@ -1,0 +1,12 @@
+[workspace]
+members = [
+	"pallets/*",
+	"primitives",
+	"chain-extensions",
+	"precompiles",
+	"runtime/web3games",
+	"node",
+]
+
+[profile.release]
+panic = "unwind"
